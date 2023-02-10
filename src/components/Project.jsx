@@ -36,7 +36,7 @@ export const Project = () => {
                 <img key={item.id} src={item.img} alt="logo" className="drop-shadow-2xl w-[360px]  overflow-hidden h-auto rounded-2xl transform transition delay-900 hover:scale-105" />
                    <div className="py-2 flex flex-row items-center gap-8 ">
                     <h2 className="font-medium dark:text-gray-100">📙 {item.title}</h2>
-                    <a href={item.img} download={item.name} className="absolute top-5 right-5 bg-gradient-to-r from-teal-300 to-cyan-300 px-3 py-1 font-medium text-sm text-gray-900 rounded-xl transform transition delay-900 hover:scale-105">{item.down}</a>
+                    <a href={item.img} download={item.img} className="absolute top-5 right-5 bg-gradient-to-r from-teal-300 to-cyan-300 px-3 py-1 font-medium text-sm text-gray-900 rounded-xl transform transition delay-900 hover:scale-105">{item.down}</a>
                     <h2 className="font-semibold dark:text-gray-200">📝 {item.test}</h2>
                    </div>
               </div>
